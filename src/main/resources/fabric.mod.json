@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fessentials",
+  "version": "${version}",
+  "name": "fessentials",
+  "description": "A set of essential tweaks for your fabric server!",
+  "authors": [
+    "Gurkan"
+  ],
+  "contact": {
+    "repo": "https://github.com/thatgurkangurk/fessentials"
+  },
+  "license": "MIT",
+  "icon": "assets/fessentials/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "me.gurkz.fessentials.client.FEssentialsClient"
+    ],
+    "main": [
+      "me.gurkz.fessentials.FEssentials"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
